@@ -68,7 +68,7 @@ def response_generator():
 
 
 
-st.title("Simple chat")
+st.title("Kristopher Keeton - Simple chat")
 
 with st.chat_message("assistant"):
     st.image("DemographicOverviewDashboardScreenshot.png", caption="CIT 144 – Demographics Data Visualization")

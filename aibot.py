@@ -70,6 +70,9 @@ def response_generator():
 
 st.title("Simple chat")
 
+with st.chat_message("assistant"):
+    st.image(“DemographicOverviewDashboardScreenshot.png", caption="CIT 144 – Demographics Data
+Visualization")
 # Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
